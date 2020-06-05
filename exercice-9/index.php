@@ -20,7 +20,7 @@
 
 <?php foreach ($array as $element) { ?>
 
-<p> <?= $element ?> </p>
+<p> <?= $element ?>     </p>
 
 <?php } ?>
 

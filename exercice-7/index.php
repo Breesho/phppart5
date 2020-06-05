@@ -1,3 +1,12 @@
+<?php
+
+$array = [ 02 => 'Aisne' ,  59 => 'Nord' , 60 => 'Oise' , 62  => 'Pas-de-Calais', 80 => 'Somme'];
+
+$array[51] =  'Reims';
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -9,19 +18,8 @@
 
 <p>Avec le tableau de l'exercice 5, ajouter la ligne correspondant au département de la ville de Reims.</p>
 
-<?php
 
-$array = [ 02 => 'Aisne' ,  59 => 'Nord' , 60 => 'Oise' , 62  => 'Pas-de-Calais', 80 => 'Somme'];
-
-$array[51] =  'Reims';
-
-
-
-print_r ($array);
-
-
-?>
-
+<p> <?php print_r ($array) ?> </p>
 
 </body>
 </html>

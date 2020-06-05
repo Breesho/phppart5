@@ -1,3 +1,22 @@
+<?php
+
+$array = array (
+    "janvier" ,
+    "février" ,
+    "mars" ,
+    "avril",
+    "mai" ,
+    "juin",
+    "juillet" ,
+    "aout",
+    "septembre",
+    "octobre" ,
+    "novembre",
+    "décembre",
+);
+?>
+
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -21,23 +40,6 @@ octobre
 novembre
 décembre</p>
 
-<?php
-
-$array = array (
-    "janvier" ,
-    "février" ,
-    "mars" ,
-    "avril",
-    "mai" ,
-    "juin",
-    "juillet" ,
-    "aout",
-    "septembre",
-    "octobre" ,
-    "novembre",
-    "décembre",
-);
-?>
 
 
 </body>

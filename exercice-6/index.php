@@ -1,3 +1,11 @@
+
+
+<?php
+
+$array = [ 02 => 'Aisne' ,  59 => 'Nord' , 60 => 'Oise' , 62  => 'Pas-de-Calais', 80 => 'Somme'];
+
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -9,15 +17,9 @@
 
 <p>Avec le tableau de l'exercice 5, afficher la valeur de l'index 59.</p>
 
-<?php
 
-$array = [ 02 => 'Aisne' ,  59 => 'Nord' , 60 => 'Oise' , 62  => 'Pas-de-Calais', 80 => 'Somme'];
+<p> <?php print_r($array[59])?> </p>
 
-
-print_r ($array[59]);
-
-
-?>
 
 
 </body>

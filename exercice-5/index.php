@@ -1,3 +1,10 @@
+<?php
+
+$array = [02 => 'Aisne' , 59 => 'Nord', 60 => 'Oise',  62 => 'Pas-de-Calais',  80 => 'Somme'];
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -9,15 +16,7 @@
 
 <p>Créer un tableau associatif avec comme index le numéro des départements des Hauts de France et en valeur leur nom.</p>
 
-<?php
-
-$array = [02 => 'Aisne' , 59 => 'Nord', 60 => 'Oise',  62 => 'Pas-de-Calais',  80 => 'Somme'];
-
-
-print_r($array);
-
-
-?>
+<p><?php print_r($array) ?></p>
 
 
 </body>
